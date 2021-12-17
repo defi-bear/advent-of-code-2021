@@ -1,3 +1,5 @@
+// PART 1 Solution: min_y * (min_y - 1) / 2
+
 fn main() {
     const MIN_X: i32 = 169;// 20;
     const MAX_X: i32 = 206;// 30;
