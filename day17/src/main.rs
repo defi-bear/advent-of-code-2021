@@ -16,7 +16,6 @@ fn main() {
                 y += yy;
                 if x >= MIN_X && x <= MAX_X && y >=MIN_Y && y <= MAX_Y {
                     sum += 1;
-                    println!("{}, {}", i, j);
                     break;
                 } else if x > MAX_X || y < MIN_Y {
                     break;
